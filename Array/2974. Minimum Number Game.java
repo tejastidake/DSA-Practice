@@ -7,6 +7,8 @@ The game continues until nums becomes empty.
 Return the resulting array arr.
 */
 
+// Array, Sorting, Heap (Priority Queue), Simulation
+
 // Runtime: 2ms (Beats 98.79%) | Memory: 44.92MB (Top 39.16%)
 
 class Solution {
