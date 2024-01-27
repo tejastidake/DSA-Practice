@@ -11,15 +11,15 @@ Return the resulting array arr.
 
 class Solution {
     public int[] numberGame(int[] nums) {
-        int[]  arr  = new int[nums.length];
-        Arrays.sort(nums);
+        int[]  arr  = new int[nums.length];            // arr for returning answer
+        Arrays.sort(nums);                            // sorting the given array for easy retrival
 
-        for   (int  i=0;i<nums.length;i+=2){
-            arr[i] = nums[i+1];
-            arr[i+1]  = nums[i];
+        for   (int  i=0;i<nums.length;i+=2){          // increasing i by 2 for alice and bob
+            arr[i] = nums[i+1];                      // alice will pick first and put after bob
+            arr[i+1]  = nums[i];                     // bob will pick second and put before alice
         }
 
-        return arr;
+        return arr;                                 // returning the answer arr
         
     }
 }
