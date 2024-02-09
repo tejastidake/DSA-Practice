@@ -7,6 +7,9 @@ Return the maximum number you can get by changing at most one digit (6 becomes 9
 
 // Math, Greedy
 
+// Solution: https://leetcode.com/problems/maximum-69-number/solutions/4702674/solution-1ms-easy-explained
+
+
 
 class Solution {
     public int maximum69Number (int num) {
